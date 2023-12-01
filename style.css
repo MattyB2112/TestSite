@@ -1,6 +1,7 @@
 *{
     background-color: bisque;
-    font-size: 24px
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div.grid-container {
@@ -12,16 +13,29 @@ div.grid-container {
 }
 
 h1.mainHeader {
+    font-size: 38px;
     grid-area: header;
     text-align: center;
 }
 
+u {
+    font-size: 38px;
+}
+
 p.paragraphOne {
     grid-area: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 p.paragraphTwo {
     grid-area: right;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 div.picture1 {
@@ -30,7 +44,7 @@ div.picture1 {
 
 img.one {
     border-radius: 50%;
-    border: rgb(85, 161, 231) dashed 5px;
+    border: rgb(85, 161, 231) dashed 2px;
     margin-left: 50px;
 }
 
@@ -40,7 +54,7 @@ div.picture2 {
 
 img.two {
     border-radius: 50%;
-    border: rgb(85, 161, 231) dashed 5px;
+    border: rgb(85, 161, 231) dashed 2px;
     margin-left: 100px;
 }
 
@@ -50,7 +64,7 @@ div.picture3 {
 
 img.three {
     border-radius: 50%;
-    border: rgb(85, 161, 231) dashed 5px;
+    border: rgb(85, 161, 231) dashed 2px;
     margin-right: 80px;
 }
 
